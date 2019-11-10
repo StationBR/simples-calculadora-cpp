@@ -6,7 +6,7 @@ int main()
   // Veja como o printf funciona
   cout << "Programa Iniciado" << endl;
   cout << "Calculadora Simples" << endl;
-
+  while{
   int a , b;
 
   cout << "Digite A: ";
@@ -37,8 +37,9 @@ int main()
     cout << "A operação \"" << operacao << "\"nao foi reconhecida" << endl;
     return 1; // Detectamos um erro, sair
   }
-  
-  cout << "Fim de Programa\n";
+}
+  cout << "Resultado: " << resultado << endl;
+  cout << "\nFim de Programa\nAperte enter para fazer outra conta";
   return 0; // sucesss, facultativo
 }
 /** By Station Equipe
