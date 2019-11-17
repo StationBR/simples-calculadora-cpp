@@ -3,10 +3,11 @@ using namespace std;
 
 int main()
 {
+  while{
   // Veja como o printf funciona
   cout << "Programa Iniciado" << endl;
   cout << "Calculadora Simples" << endl;
-  while{
+
   int a , b;
 
   cout << "Digite A: ";
